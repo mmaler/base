@@ -1,0 +1,12 @@
+// BEGIN: Global SASS Imports
+// @source global.scss
+// --------------------------------------------------
+
+@import 'base/functions/all';
+@import 'base/normalize';
+@import 'base/settings';
+
+@import 'base/mixins/all';
+@import 'base/placeholders/all';
+@import 'base/ui-patterns/all';
+@import 'base/interface/all';
