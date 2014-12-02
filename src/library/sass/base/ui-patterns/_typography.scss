@@ -245,7 +245,7 @@ small, .small {
 
 @include m-text-emphasis-variant( '.text-info', $state-info-font-color);
 
-@include m-text-emphasis-variant( '.text-primary', $color-primary );
+@include m-text-emphasis-variant( '.text-primary', $primary-color );
 
 @include m-text-emphasis-variant( '.text-success', $state-success-font-color );
 
@@ -259,7 +259,7 @@ small, .small {
 
 @include m-background-variant( '.background-info', $state-info-background-color );
 
-@include m-background-variant( '.background-primary', $color-primary );
+@include m-background-variant( '.background-primary', $primary-color );
 
 @include m-background-variant( '.background-success', $state-success-background-color );
 
