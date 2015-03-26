@@ -4042,6 +4042,20 @@ table td[class*="col-"], table th[class*="col-"] {
 .table-hover > tbody > tr > td.warning:hover, .table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr.warning:hover > th {
   background-color: #faf2cc; }
 
+.tab-content > .tab-pane {
+  display: none; }
+.tab-content > .active {
+  display: block; }
+
+.tab-navigation > li {
+  float: left;
+  margin-bottom: -1px; }
+  .tab-navigation > li > a {
+    line-height: 1.428571429;
+    margin-right: 2px; }
+  .tab-navigation > li.active > a, .tab-navigation > li.active > a:hover, .tab-navigation > li.active > a:focus {
+    cursor: default; }
+
 .tooltip {
   display: block;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
