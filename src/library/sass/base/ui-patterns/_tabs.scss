@@ -1,0 +1,37 @@
+// BEGIN: Tabs
+// @source base/ui-patterns/_tabs.scss
+// --------------------------------------------------
+
+.tab-content {
+
+	> .tab-pane {
+		display: none;
+	}
+
+	> .active {
+		display: block;
+	}
+}
+
+.tab-navigation {
+	
+	> li {
+
+		float: left;
+		margin-bottom: -1px;
+
+		> a {
+		
+			line-height: $line-height-base;
+			margin-right: 2px;
+		}
+
+		&.active > a {
+
+			&, &:hover, &:focus {
+				cursor: default;
+			}
+		}
+	}
+}
+
